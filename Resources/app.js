@@ -17,8 +17,8 @@ var win0 = Ti.UI.createWindow({
 });
 var win = Ti.UI.createWindow({
 	fullscreen: true,
-	navBarHidden: true,
-	backgroundImage: 'bg.jpeg'
+	navBarHidden: true//,
+	//backgroundImage: 'bg.jpeg'
 });
 
 var font = {fontSize: 30};
