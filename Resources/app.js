@@ -355,7 +355,8 @@ function sendRequest(type) {
 		requestSent = false;
 	};
 
-	var baseUrl = 'http://api.yelp.com/business_review_search?ywsid=-4MmBPzu0H4H8HxWQPvLig&term=' + places + '&lat=' + lat + '&long=' + 
+	var yourAPIKEY;
+	var baseUrl = 'http://api.yelp.com/business_review_search?ywsid=' + yourAPIKEY + '&term=' + places + '&lat=' + lat + '&long=' + 
 	lon + '&radius=' + radius + '&limit=' + limit;
 	Ti.API.info(baseUrl);
 	xhr.open('GET', baseUrl);
